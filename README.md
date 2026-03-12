@@ -2,7 +2,7 @@
 
 Production-ready Tier-1 support agent with guardrails and escalation handling.
 
-Built by **erron.ai**.
+Built by [Erron AI](https://erron.ai).
 
 ## Why this exists
 - Solve a concrete business problem with a practical, extensible baseline.
