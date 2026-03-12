@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "support-agent-starter"
+version = "0.1.0"
+description = "Production-ready Tier-1 support agent with guardrails and escalation handling."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "erron.ai"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/erron-ai/support-agent-starter"
+Issues = "https://github.com/erron-ai/support-agent-starter/issues"
+
+[project.scripts]
+support-agent-starter = "support_agent_starter.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
